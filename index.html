@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COUNT BUTTON</title>
+</head>
+<body>
+    <button class="button1" onclick="add()">ADD</button>
+    <button class="button2" onclick="sub()">SUB</button>
+    <p class="num" id="count">0</p>
+    <script>
+        let count1=0;
+        let c=document.querySelector("#count");
+        function add()
+        {
+            count1=count1+1;
+            c.innerHTML=count1;
+        }
+        function sub()
+        {
+            count1=count1-1;
+            c.innerHTML=count1;
+        }
+        
+    </script>
+</body>
+</html>
